@@ -19,7 +19,8 @@ const styles = StyleSheet.create({
     },
     containerOverdue: {
         paddingHorizontal: 20,
-        marginVertical: 10
+        marginVertical: 10,
+        height: 150
     },
     titleContainer: {
         fontSize: 18,
@@ -50,7 +51,7 @@ const styles = StyleSheet.create({
     },
     containerTodayTasks: {
         padding: 20,
-        height: 580
+        height: 430
     },
     addTaskContainer: {
         position: 'absolute',

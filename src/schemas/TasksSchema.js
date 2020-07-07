@@ -6,7 +6,7 @@ export default class TaskSchema {
             id: { type: 'string', indexed: true },
             name: 'string',
             description: 'string',
-            day: 'string',
+            date: 'date',
             hour: 'string',
             do: 'string'
         }
